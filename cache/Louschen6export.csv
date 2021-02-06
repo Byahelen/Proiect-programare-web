@@ -1,0 +1,7 @@
+title,category,type,date,amount
+Salariu,Salary,income,"2018-07-01 00:00:00","130.00 RON"
+"Bonus salarial",Bonus,income,"2018-06-14 23:54:25","150.00 RON"
+Smartphone,gift,expense,"2018-06-14 23:17:54","-1200.00 RON"
+Pizza,Food,expense,"2018-06-14 22:18:53","-33.00 RON"
+"Primit Cadou",Gift,income,"2018-06-13 22:13:13","300.00 RON"
+Salariu,Salary,income,"2018-06-13 22:12:50","2500.00 RON"

@@ -1,0 +1,768 @@
+/*Universal CSS rules */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+
+body {
+    background-color: #edefe5;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    padding:0;
+    margin:0;
+}
+
+
+.container{
+    width:70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+/*----------------------------------------*/
+/*    style for the homepage content      */
+/*----------------------------------------*/
+#home {
+    padding: 40px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#marketing_1 {
+    min-height:400px;
+    text-align:center;
+    background: url("../images/graph-163509.jpg") no-repeat 0 -500px;
+}
+#marketing_1 h1{
+    margin-top: 20%;
+}
+
+#marketing_2 {
+    min-height: 200px;
+    text-align: center;
+    background-color: #9ab77d;
+}
+#marketing_2 p{
+    margin-top: 10%;
+}
+
+#marketing_3 {
+    min-height: 400px;
+    text-align: center;
+    background-color: #edefe5;
+}
+#marketing_3 p{
+    margin-top: 10%;
+}
+/*----------------------------------------*/
+/*      style for the sticky header       */
+/*----------------------------------------*/
+header {
+    padding: 10px 16px;
+    background: #5e795b;
+    color: #f1f1f1;
+    padding-top:15px;
+    padding-bottom: 15px;
+    min-height: 60px;
+    max-height: 100px;
+    border-bottom:#bb5050 3px solid;
+}
+
+header li {
+    float:left;
+    display:inline;
+    padding: 0 15px 0 15px;
+}
+
+header a {
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:15px;
+}
+
+header #brand {
+    float: left;
+}
+
+header #brand h3{
+    font-size: 35px;
+    margin:0 0 0 0;
+    margin-top: 25px;
+}
+
+header nav{
+    float:right;
+    margin-top:40px;
+}
+
+header .current a{
+    color:#d99ca0;
+    font-weight:bold;
+}
+
+header a:hover{
+    color:black;
+}
+
+/*----------------------------------------*/
+/*  style for the hidden left sided menu  */
+/*----------------------------------------*/
+label[for="toggle"] {
+    font-size: 20px;
+    position: fixed;
+    top: 20%;
+    left: 5px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    top: -1000px;
+}
+
+aside {
+    background-color: burlywood;
+    color: white;
+    border-radius: 0 30px 30px 0;
+    width: 150px;
+    height: 300px;
+    padding: 0 20px;
+    position: fixed;
+    top: 20%;
+    bottom: 10%;
+    left: -185px;
+    transition: 0.6s all;
+}
+
+input[type=checkbox]:checked + aside {
+    left: 0px;
+}
+
+/*----------------------------------------*/
+/*          style for the footer          */
+/*----------------------------------------*/
+footer {
+    padding: 5px 8px;
+    background: #bb5050;
+    color: #f1f1f1;
+    text-align: center;
+    border-top:#5e795b 3px solid;
+}
+
+footer img {
+    width: 64px;
+    height: 64px;
+    position: center;
+}
+
+/*----------------------------------------*/
+/*         Transaction table              */
+/*----------------------------------------*/
+
+
+
+
+/*** Table Styles **/
+
+.table-fill {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 320px;
+    margin: auto;
+    max-width: 100%;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:23px;
+    font-weight: 100;
+    padding:24px;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+    cursor: pointer;
+}
+
+
+th:first-child {
+    border-top-left-radius:3px;
+}
+
+th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+}
+
+
+#transactions thead th:nth-child(1) {
+    width: 30%;
+}
+
+#transactions thead th:nth-child(2) {
+    width: 15%;
+}
+
+#transactions thead th:nth-child(3) {
+    width: 10%;
+}
+
+#transactions thead th:nth-child(4) {
+    width: 30%;
+}
+
+#transactions thead th:nth-child(4) {
+    width: 10%;
+}
+
+#transactions thead th:nth-child(4) {
+    width: 10%;
+}
+
+#transactions tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:12px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+    background: #e7e8e6;
+    border-top: 1px solid #22262e;
+}
+
+tr:first-child {
+    border-top:none;
+}
+
+tr:last-child {
+    border-bottom:none;
+}
+
+
+tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+}
+
+td {
+    background:#FFFFFF;
+    padding:20px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:16px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+td.expense  {
+    color: #ff5f42;
+}
+
+td.income  {
+
+    color: #00ff89;
+}
+
+
+
+th, td {
+    padding: 20px;
+}
+
+#transactions tr:nth-child(even) {
+    background-color: #c1ffba;
+}
+
+
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}
+
+/*----------------------------------------*/
+/*login/register/forgotPassword page style*/
+/*----------------------------------------*/
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding-top: 200px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all;
+    transition: all;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+
+
+/*----------------------------------------*/
+/*   Profile picture style/ profile page  */
+/*----------------------------------------*/
+.imgResize {
+    display: block;
+    max-width:400px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.linkCurent{
+    color: red;
+}
+
+#user-bar {
+    max-height: 100px;
+    background-color: #9ab77d;
+    padding-top:10px;
+    padding-bottom: 10px;
+    min-height: 60px;
+    border-bottom:#bb5050 3px solid;
+}
+
+#user-bar li{
+    display:inline;
+    padding: 0 10px 0 10px;
+}
+
+#user-bar nav{
+    float:right;
+    margin-top:0;
+}
+
+#user-bar a {
+    color:black;
+    text-decoration:none;
+    text-transform: lowercase;
+    font-size:15px;
+}
+
+#user-bar img {
+    width: 50px;
+    height: 50px;
+
+}
+
+#user-bar #page-section {
+    float: left;
+}
+
+#user-bar #page-section h1{
+    font-size: 30px;
+    margin:0 0 0 0;
+    margin-top: 10px;
+}
+
+/*----------------------------------------*/
+/*   Buttons                              */
+/*----------------------------------------*/
+
+.atbutton {
+
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #FF7373;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    vertical-align:middle
+}
+
+.atbutton a {
+    text-decoration: none;
+}
+
+.atbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.atbutton span:after {
+    content: '+';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.atbutton:hover span {
+    padding-left: 25px;
+}
+
+.atbutton:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+
+.edbutton {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #FF7373;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.edbutton a {
+    text-decoration: none;
+}
+
+.edbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a.previous:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+a.next:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 8px 16px;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+}
+
+.round {
+    border-radius: 50%;
+}
+/*----------------------------------------*/
+/*   Profile card                         */
+/*----------------------------------------*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+}
+
+.card .title {
+    color: grey;
+    font-size: 18px;
+
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+/*----------------------------------------*/
+/*   Add transaction                      */
+/*----------------------------------------*/
+#add_transaction .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[name=add] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[name=cancel] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[name=cancel]:hover {
+    background-color: #ff0b2f;
+}
+
+input[name=add]:hover {
+    background-color: #45a049;
+}
+
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*----------------------------------------*/
+/*   Statistics canva                     */
+/*----------------------------------------*/
+
+#statisticsBar {
+    width: 65%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+
+
+
+
+/*----------------------------------------*/
+/*   Month chooser                        */
+/*----------------------------------------*/
+#month-chooser {
+    max-height: 100px;
+    background: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    min-height: 60px;
+
+}
+
+#month-chooser li{
+    display:inline;
+    padding: 0 10px 0 10px;
+    float:right;
+}
+
+
+#month-chooser .data-select {
+    background: none;
+    color: darkblue;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    width: 10%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    float:left;
+    margin-top: 10px;
+    margin-left: 2px;
+
+}
+
+.data-select {
+    background: none;
+    color: darkblue;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    width: 10%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    float:right;
+    margin-top: 10px;
+    margin-left: 2px;
+
+}
+
+
+/*----------------------------------------*/
+/*          Transaction details           */
+/*----------------------------------------*/
+#transaction_details {
+
+}
+
+
+/*----------------------------------------*/
+/*      Responsive web design code        */
+/*----------------------------------------*/
+@media screen and (max-width: 479px){
+    header #brand,
+    header nav,
+    header nav li,
+    #home{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:20px;
+    }
+}
+
+@media screen and (min-width:480px)
+and (max-width:767px){
+    header #brand,
+    header nav,
+    header nav li,
+    #home{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+
+    header{
+        padding-bottom:20px;
+    }
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    #contact-row .contact-column {
+        width: 90%;
+    }
+    .column1, .column2 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px)
+and  (max-width:959px) {
+
+}

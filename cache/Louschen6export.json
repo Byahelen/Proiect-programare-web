@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Salariu",
+        "category": "Salary",
+        "type": "income",
+        "date": "2018-07-01 00:00:00",
+        "amount": "130.00 RON"
+    },
+    {
+        "title": "Bonus salarial",
+        "category": "Bonus",
+        "type": "income",
+        "date": "2018-06-14 23:54:25",
+        "amount": "150.00 RON"
+    },
+    {
+        "title": "Smartphone",
+        "category": "gift",
+        "type": "expense",
+        "date": "2018-06-14 23:17:54",
+        "amount": "-1200.00 RON"
+    },
+    {
+        "title": "Pizza",
+        "category": "Food",
+        "type": "expense",
+        "date": "2018-06-14 22:18:53",
+        "amount": "-33.00 RON"
+    },
+    {
+        "title": "Primit Cadou",
+        "category": "Gift",
+        "type": "income",
+        "date": "2018-06-13 22:13:13",
+        "amount": "300.00 RON"
+    },
+    {
+        "title": "Salariu",
+        "category": "Salary",
+        "type": "income",
+        "date": "2018-06-13 22:12:50",
+        "amount": "2500.00 RON"
+    }
+]

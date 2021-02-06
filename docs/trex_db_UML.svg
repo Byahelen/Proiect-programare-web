@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="103 30 784 438" width="681px" height="408px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="675" y1="144" x2="665" y2="144" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="494" y1="75" x2="484" y2="75" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="665" y1="144" x2="494" y2="75" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="667.5" y1="144" x2="671.03553390593" y2="147.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="667.5" y1="144" x2="671.03553390593" y2="140.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="489" y1="75" x2="492.53553390593" y2="78.535533905933" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="489" y1="75" x2="492.53553390593" y2="71.464466094067" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="212" y1="123" x2="222" y2="123" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="338" y1="75" x2="348" y2="75" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="222" y1="123" x2="338" y2="75" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="219.5" y1="123" x2="215.96446609407" y2="126.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="219.5" y1="123" x2="215.96446609407" y2="119.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="343" y1="75" x2="339.46446609407" y2="78.535533905933" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="343" y1="75" x2="339.46446609407" y2="71.464466094067" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="484" y1="293" x2="494" y2="293" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="665" y1="84" x2="675" y2="84" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="494" y1="293" x2="665" y2="84" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="491.5" y1="293" x2="487.96446609407" y2="296.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="491.5" y1="293" x2="487.96446609407" y2="289.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="670" y1="84" x2="666.46446609407" y2="87.535533905933" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="670" y1="84" x2="666.46446609407" y2="80.464466094067" style="stroke:#0b0;stroke-width:2;"/>
+   <rect width="94" height="20" x="675" y="54" style="fill:#007;stroke:black;"/>
+   <text width="94" height="20" x="680" y="68" style="fill:#fff;" font-family="Arial" font-size="16px"> collections</text>
+   <rect width="94" height="20" x="675" y="74" style="fill:#aea;stroke:black;"/>
+   <text width="94" height="20" x="680" y="88" style="fill:black;" font-family="Arial" font-size="16px">collection_id</text>
+   <rect width="94" height="20" x="675" y="94" style="fill:none;stroke:black;"/>
+   <text width="94" height="20" x="680" y="108" style="fill:black;" font-family="Arial" font-size="16px">name</text>
+   <rect width="94" height="20" x="675" y="114" style="fill:none;stroke:black;"/>
+   <text width="94" height="20" x="680" y="128" style="fill:black;" font-family="Arial" font-size="16px">Currency</text>
+   <rect width="94" height="20" x="675" y="134" style="fill:none;stroke:black;"/>
+   <text width="94" height="20" x="680" y="148" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
+   <rect width="94" height="20" x="118" y="53" style="fill:#007;stroke:black;"/>
+   <text width="94" height="20" x="123" y="67" style="fill:#fff;" font-family="Arial" font-size="16px"> login_tokens</text>
+   <rect width="94" height="20" x="118" y="73" style="fill:#aea;stroke:black;"/>
+   <text width="94" height="20" x="123" y="87" style="fill:black;" font-family="Arial" font-size="16px">token_id</text>
+   <rect width="94" height="20" x="118" y="93" style="fill:none;stroke:black;"/>
+   <text width="94" height="20" x="123" y="107" style="fill:black;" font-family="Arial" font-size="16px">token</text>
+   <rect width="94" height="20" x="118" y="113" style="fill:none;stroke:black;"/>
+   <text width="94" height="20" x="123" y="127" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
+   <rect width="106" height="20" x="378" y="243" style="fill:#007;stroke:black;"/>
+   <text width="106" height="20" x="383" y="257" style="fill:#fff;" font-family="Arial" font-size="16px"> transactions</text>
+   <rect width="106" height="20" x="378" y="263" style="fill:#aea;stroke:black;"/>
+   <text width="106" height="20" x="383" y="277" style="fill:black;" font-family="Arial" font-size="16px">transaction_id</text>
+   <rect width="106" height="20" x="378" y="283" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="297" style="fill:black;" font-family="Arial" font-size="16px">collection_id</text>
+   <rect width="106" height="20" x="378" y="303" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="317" style="fill:black;" font-family="Arial" font-size="16px">title</text>
+   <rect width="106" height="20" x="378" y="323" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="337" style="fill:black;" font-family="Arial" font-size="16px">category</text>
+   <rect width="106" height="20" x="378" y="343" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="357" style="fill:black;" font-family="Arial" font-size="16px">type</text>
+   <rect width="106" height="20" x="378" y="363" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="377" style="fill:black;" font-family="Arial" font-size="16px">date</text>
+   <rect width="106" height="20" x="378" y="383" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="397" style="fill:black;" font-family="Arial" font-size="16px">amount</text>
+   <rect width="106" height="20" x="378" y="403" style="fill:none;stroke:black;"/>
+   <text width="106" height="20" x="383" y="417" style="fill:black;" font-family="Arial" font-size="16px">description</text>
+   <rect width="136" height="20" x="348" y="45" style="fill:#007;stroke:black;"/>
+   <text width="136" height="20" x="353" y="59" style="fill:#fff;" font-family="Arial" font-size="16px"> users</text>
+   <rect width="136" height="20" x="348" y="65" style="fill:#aea;stroke:black;"/>
+   <text width="136" height="20" x="353" y="79" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
+   <rect width="136" height="20" x="348" y="85" style="fill:none;stroke:black;"/>
+   <text width="136" height="20" x="353" y="99" style="fill:black;" font-family="Arial" font-size="16px">username</text>
+   <rect width="136" height="20" x="348" y="105" style="fill:none;stroke:black;"/>
+   <text width="136" height="20" x="353" y="119" style="fill:black;" font-family="Arial" font-size="16px">hashed_password</text>
+   <rect width="136" height="20" x="348" y="125" style="fill:none;stroke:black;"/>
+   <text width="136" height="20" x="353" y="139" style="fill:black;" font-family="Arial" font-size="16px">email</text>
+</svg>
